@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-col">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encriptador de texto</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="shortcut icon" type="" href="#">
+</head>
+<body>
+    <header class = 'header'> <img src="Imagenes/Logo_a.png" alt="logo de alura latam"> </header>
+
+    <main class="Cuerpo_contenido">
+        <section class="occidente">
+            <textarea id="textoUsuario" name=""  placeholder="Ingrese el texto aqui" cols="30" rows="10"></textarea>
+            
+            <p id="text_0"> <img src ='Imagenes/Frame 1.png' alt ='logo de exclamacion'> Solo letras minúsculas y sin acentos</p>
+            <div class="sur">
+                <button id="encriptar" onclick="myFuntion()" >Encriptar</button>
+                <button id="desencriptar" onclick="myFuntion2()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="oriente">
+            <!-- Imagen la que se olcultara -->
+            <div id="myDiv" calss="mydiv"> 
+                <img id="muñeco" src="Imagenes/Muñeco.png" alt="logo">
+                <div id="textos_1_2">
+                    <p id="text_1">Ningún mensaje fue <br> encontrado</p>
+                    <p id="text_2">Ingresa el texto que desees encriptar o <br> desencriptar</p>
+                </div>
+            </div>
+             <!-- demo es el id del texto que va ser encriptado o descencriptado -->
+            <div class="texto_copy">
+            <p id="demo" content="width=device-width"></p>
+                <!-- boton de copiar que en un principio esta oculto (style="display: none;") y despues pasa a ser visible -->
+                <div id="copy" style="display: none;"> <button  onclick="miCopia()" class="container__boton">Copiar</button> </div>
+            </div>
+
+            
+        </section>
+
+    </main>
+    <script src="app.js" defer></script>
+
+
+    <footer class="footer">
+        <p>Desarrollado por Dy_Osorio</p>
+    </footer>
+</body>
+</html>
