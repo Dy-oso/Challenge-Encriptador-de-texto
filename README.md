@@ -10,9 +10,9 @@
 - La letra "o" es convertida para "ober"
 - La letra "u" es convertida para "ufat"
 
-###Lógica de programación 
+### Lógica de programación 
 <p>
 A medida que escribía el código, dejaba comentarios para tener una idea de lo que hace cada cosa.
 </p>
 
-######Posdata : <em>Esto solo era para probar README.md</em>
+###### Posdata : <em>Esto solo era para probar README.md</em>
